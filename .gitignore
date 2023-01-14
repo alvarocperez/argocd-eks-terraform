@@ -1,0 +1,6 @@
+.terraform
+*.lock.hcl
+kubeconfig_argocd-eks-terraform
+plan.out
+terraform.tfstate
+
