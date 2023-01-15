@@ -5,3 +5,4 @@ bases:
   - ../base
 patchesStrategicMerge:
   - argocd-server.yaml
+  - argocd-cm.yaml
