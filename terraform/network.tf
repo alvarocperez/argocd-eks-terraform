@@ -5,7 +5,7 @@ module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.11.0"
 
-  name                 = "packt-network"
+  name                 = "acp-network"
   cidr                 = "10.0.0.0/16"
   azs                  = data.aws_availability_zones.zones.names
   public_subnets       = var.public_subnets
