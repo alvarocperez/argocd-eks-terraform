@@ -1,5 +1,5 @@
 data "kustomization_build" "argocd" {
-  path = "../k8s-bootstrap/bootstrap"
+  path = "../eks-infra/k8s-bootstrap/argocd/bootstrap"
 }
 
 resource "kustomization_resource" "argocd" {
